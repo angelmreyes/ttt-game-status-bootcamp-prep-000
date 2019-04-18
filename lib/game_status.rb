@@ -29,9 +29,7 @@ end
 def full?(board)
   !board.any? { |position| position.nil? || position == "" || position == " " }
 end
-# Build a method `#draw?` that accepts a board and returns true if the board has
-# not been won but is full, false if the board is not won and the board is not
-# full, and false if the board is won
+
 def draw?(board)
   if !won?(board) && full?(board)
     return true
