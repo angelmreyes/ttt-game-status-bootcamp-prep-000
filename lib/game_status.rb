@@ -16,4 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  # return false/nil if
+  # there is no win combination present in the board and return the winning
+  # combination indexes as an array if there is a win
 end
